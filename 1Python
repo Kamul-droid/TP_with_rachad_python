@@ -1,0 +1,38 @@
+Our code here
+Algorithme TTC
+ 
+ variables
+ 
+ prix, TVA, Nombre_article, montant_ttc : entiers
+ 
+ 
+Entrée
+
+ un prix unitaire HT, 
+un taux de TVA et un nombre d’articles
+
+Sortie
+
+le montant TTC de l’achat
+
+
+Début 
+	// on demande à l'utilisateur de rentrer les informations
+	afficher("Entrer le prix unitaire")
+	saisir("prix")
+	
+	afficher("Entrer le nombre d'articles")
+	saisir("Nombre_article")
+	
+	afficher("Entrer la TVA")
+	saisir("TVA")
+	
+	// on effectue le calcul
+	
+	montant_ttc = (prix*Nombre_article) + TVA(prix*Nombre_article) = (prix*Nombre_article)(1+TVA)
+	
+	// on affiche le résultat
+	
+	afficher("le montant TTC de l'achat est",montant_ttc)
+	
+Fin
