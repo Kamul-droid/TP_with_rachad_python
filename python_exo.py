@@ -5,7 +5,7 @@ prix = int(input("Entrer le prix unitaire"))
 
 Nombre_article=int(input("Entrer le nombre d'articles"))
 
-TVA = int(input("Entrer la TVA"))
+TVA = float(input("Entrer la TVA"))
 
 	
 # on effectue le calcul
